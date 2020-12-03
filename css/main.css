@@ -269,7 +269,7 @@ hr {
 .about .about-text {
   width: 75%;
   text-align: justify;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 /*Skills Area*/
@@ -306,18 +306,29 @@ hr {
   padding-top: 20px;
 }
 
+.skill-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+  padding: 0 20px;
+  width: 100%;
+}
+
 .skills-area .content-wrapper .skill-text {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding-bottom: 30px;
   width: 75%;
-  padding: 30px 0;
 }
 
 .skills-area .content-wrapper .skill-text p {
   text-align: justify;
 }
+
 /*Portfolio*/
 
 .portfolio {
@@ -710,16 +721,17 @@ header nav ul {
 .skills-area .content-wrapper {
   align-items: flex-start;
   padding-top: 0;
-  padding-bottom: 60px;
+  padding-bottom: 100px;
 }
 
 .skills-area .content-wrapper .skill {
   flex-flow: column wrap;
-  width: 33%;
+  width: 45%;
+  padding-bottom: 40px;
 }
 
 .skills-area .content-wrapper .skill-text {
-  width: 85%;
+  width: 75%;
 }
 
 /* Portfolio */
@@ -850,6 +862,17 @@ header nav {
 
 .hero-area .caption br {
   display: ;
+}
+
+/*Skills Area*/
+.skills-area .content-wrapper .skill {
+  flex-flow: column wrap;
+  width: 33%;
+  padding-bottom: 80px;
+}
+
+.skills-area .content-wrapper {
+  padding-top: 60px;
 }
 
 /*Portfolio*/
