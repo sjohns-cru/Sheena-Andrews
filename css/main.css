@@ -419,6 +419,25 @@ hr {
   padding-bottom: 15px;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-flow: row wrap;
+  width: 40%;
+  padding: 20px 0;
+  margin: 20px 0;
+  background-color: #506a7f;
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /*Footer*/
 footer {
   display: flex;
@@ -973,7 +992,7 @@ header nav ul {
 }
 
 .portfolio-text p {
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 
 /*Contact*/
@@ -1124,6 +1143,10 @@ header nav {
 
 .portfolio .portfolio-text {
   margin: 0;
+}
+
+.portfolio-text p {
+  padding-bottom: 30px;
 }
 
 /*==========================================================================
