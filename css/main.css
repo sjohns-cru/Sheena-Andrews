@@ -117,7 +117,7 @@ h3 {
 
 h4 {
   font-family: 'Tenor Sans', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 h5 {
@@ -130,6 +130,7 @@ h5 {
 p {
   font-size: 1.125em;
   margin:0;
+  text-align: justify;
 }
 
 ul {
@@ -529,6 +530,207 @@ footer h5 {
   font-weight: lighter;
   color: #f9f1e1;
 }
+
+/*===========================================================================
+BREWTOPIA PORTFOLIO Page
+===========================================================================*/
+/*General Styles*/
+.portfolio-content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.portfolio-pg-photo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+  padding: 50px 0;
+}
+
+.portfolio-pg-photo img {
+  width: 90%;
+}
+
+.portfolio-pg-divide {
+  width: 60%;
+}
+
+/**INTRO AREA**/
+.portfolio-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.portfolio-intro .intro-text {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+}
+
+.intro-text h1 {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.intro-text h4 {
+  margin: 0;
+  font-weight: lighter;
+}
+
+/*Objective Area*/
+.objective-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.objective-area .objective-text {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+}
+
+.objective-area .objective-text p {
+  padding-bottom: 10px;
+}
+
+/*Problem Area*/
+.problem-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-bottom: 50px;
+}
+
+.problem-area .problem-area-text {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+}
+
+.problem-area .problem-area-text p {
+  padding-bottom: 10px;
+}
+
+/*Solution Area*/
+.solution-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #f2f2f2;
+}
+
+.solution-area .solution-area-text {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+  padding: 50px 0;
+}
+
+.solution-area .solution-area-text p {
+  padding-bottom: 10px;
+}
+
+/*Design & Planning Area*/
+.design-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.design-area .design-area-text {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+  padding: 50px 0;
+}
+
+.design-area .design-area-text p {
+  padding-bottom: 10px;
+}
+
+/*Mood Board*/
+.mood-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-bottom: 50px;
+}
+
+.mood-board .title {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+  padding-top: 50px;
+}
+
+/*Brand Elements*/
+.brand-guide-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-bottom: 50px;
+}
+
+.brand-guide-area .title {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+  padding-top: 50px;
+}
+
+/*Lo-fi Wireframe*/
+.wireframe-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-bottom: 50px;
+}
+
+.wireframe-area .title {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+  padding-top: 50px;
+}
+
+/*High-fi Mockup*/
+.mockup-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-bottom: 50px;
+}
+
+.mockup-area .title {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+  padding-top: 50px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -640,6 +842,7 @@ h2 {
 h3 {
   font-size: 1.75em;
   margin: 0;
+  padding-bottom: 30px;
 }
 
 p {
@@ -802,6 +1005,39 @@ footer .social-icons {
 footer h4 {
   font-size: 1.125em;
 }
+
+/*=======================================================================
+BREWTOPIA PORTFOLIO Page
+=======================================================================*/
+.portfolio-content-wrapper {
+  width: 90%;
+}
+
+/*Intro Area*/
+.portfolio-intro {
+  padding-top: 50px;
+}
+
+/*Objective Area*/
+.objective-area .objective-text {
+  padding: 50px 0;
+}
+
+/*Problem Area*/
+.problem-area .problem-area-text {
+  padding: 50px 0;
+}
+
+/*Solution Area*/
+.solution-area .solution-area-text {
+  padding: 100px 0;
+}
+
+/*Design & Planning Area*/
+.design-area .design-area-text {
+  padding: 100px 0;
+}
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -889,6 +1125,19 @@ header nav {
 .portfolio .portfolio-text {
   margin: 0;
 }
+
+/*==========================================================================
+BREWTOPIA PORTFOLIO page
+==========================================================================*/
+.portfolio-content-wrapper {
+  width: 75%;
+}
+
+/*Intro Area*/
+.portfolio-intro {
+  padding-top: 50px;
+}
+
 }
 
 @media print,
